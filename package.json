@@ -1,0 +1,38 @@
+{
+  "name": "ajh_8_websockets_backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "stop": "forever stop server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Petr123qrd/AJH_8_Websockets_backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Petr123qrd/AJH_8_Websockets_backend/issues"
+  },
+  "homepage": "https://github.com/Petr123qrd/AJH_8_Websockets_backend#readme",
+  "devDependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "ws": "^8.13.0"
+  },
+  "dependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
